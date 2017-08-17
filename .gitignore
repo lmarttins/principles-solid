@@ -1,0 +1,8 @@
+# common
+.idea
+/nbproject
+/vendor/
+_build/
+*.mo
+phpunit.xml
+composer.phar
