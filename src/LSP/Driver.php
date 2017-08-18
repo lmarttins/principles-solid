@@ -4,7 +4,13 @@ namespace Solid\LSP;
 
 class Driver
 {
-    public function go(Vehicle $vehicle)
+    /**
+     * Driver go.
+     *
+     * @param  Vehicle $vehicle
+     * @return string
+     */
+    public function go(Vehicle $vehicle): string
     {
         $vehicle->startEngine();
 
